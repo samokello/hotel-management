@@ -1,26 +1,6 @@
-/* section1 */
 
-
-
-
-
-
-
-
-
-/* section2 */
-body{
-    background-color:darkturquoise;
-}
-h1{
-    color:deeppink;
-    text-align: center;
-}
-.point{
-    color:green;
-    font-weight: 400;
-    text-align: center;
-    padding-right:4em;
+/* section3*/
+.h2{color: maroon;
 
 }
 
@@ -31,4 +11,16 @@ h1{
 
 
 
-/* section3 */
+.align{
+    display: flex;
+list-style-type: none;
+
+
+}
+.connected{
+    margin-left: 2em;
+    margin-right: 2em;
+    
+
+
+}   
