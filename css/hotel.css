@@ -1,22 +1,37 @@
 /* section1 */
 
 
-
-
-
-
-
-
-
 /* section2 */
 
 
 
+/* section3*/
+.h2{color: maroon;
+
+}
 
 
 
+.container{width: 80%;}
 
 
 
+.footer-1{
+    /* display: flex;
+justify-content: center;background-color: maroon;
+*/
+}
 
-/* section3 */
+.align{
+    display: flex;
+list-style-type: none;
+
+
+}
+.connected{
+    margin-left: 2em;
+    margin-right: 2em;
+    
+
+
+}   
