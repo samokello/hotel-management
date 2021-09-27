@@ -9,8 +9,20 @@
 
 
 /* section2 */
+body{
+    background-color:darkturquoise;
+}
+h1{
+    color:deeppink;
+    text-align: center;
+}
+.point{
+    color:green;
+    font-weight: 400;
+    text-align: center;
+    padding-right:4em;
 
-
+}
 
 
 
