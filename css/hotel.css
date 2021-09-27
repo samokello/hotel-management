@@ -48,6 +48,55 @@ align-items: center;
 
 }
 
+.images{
+
+    width:300px;
+    border: 2px solid red;
+    margin: 2em;
+}
+
+.images img{
+    width: 100%;
+}
+
+.images-content{
+display: flex;
+justify-content: space-between;
+
+}
+
+
+
+
+.apartments{
+    background-color: aqua;
+
+
+
+
+
+
+
+
+
+
+}
+
+.image-content{
+display: flex;
+
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /* section2 */
