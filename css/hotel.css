@@ -71,15 +71,6 @@ justify-content: space-between;
 .apartments{
     background-color: aqua;
 
-
-
-
-
-
-
-
-
-
 }
 
 .image-content{
@@ -87,6 +78,26 @@ display: flex;
 
 
 }
+
+
+.food{
+
+}
+
+
+.food-gallery{
+width: 400px;
+border: 2px solid red;
+}
+
+
+.food-gallery img{
+width: 100%;
+
+}
+
+
+
 
 
 
