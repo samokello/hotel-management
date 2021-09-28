@@ -116,6 +116,13 @@ margin-top: 2em;
 
 
 }
+.point{
+    color:green;
+    font-weight: 400;
+    text-align: center;
+    padding-right:4em;
+    font-weight: 2em;
+  }
 
 
 .food-gallery{
