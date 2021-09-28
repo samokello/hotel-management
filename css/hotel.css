@@ -1,4 +1,158 @@
+
 /* section1 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* section3*/
+.h2{color: maroon;}
+
+
+.container{
+width: 80%;
+margin: 0 auto;
+
+
+}
+
+
+
+
+.navigation {
+  display: flex;
+justify-content: space-between;
+
+align-items: center;
+
+
+.footer-1{
+    display: flex;
+justify-content: center;background-color: maroon;
+
+}
+
+
+.align{
+    display: flex;
+list-style-type: none;
+
+
+}
+
+
+.align h3{
+    padding-right: 2em;
+  }
+
+nav{
+background-color: aqua;
+
+}
+
+
+
+
+.nav-content ul{
+display: flex;
+justify-content: space-around;
+
+}
+
+.nav-content ul a{
+padding: 2em;
+list-style-type: none;
+text-decoration: none;
+align-items: center;
+
+}
+
+.images{
+
+    width:300px;
+    border: 2px solid red;
+    margin: 2em;
+}
+
+.images img{
+    width: 100%;
+}
+
+.images-content{
+display: flex;
+justify-content: space-between;
+
+}
+
+
+
+
+.apartments{
+    background-color: aqua;
+    margin-bottom: 2em;
+
+}
+
+.image-content{
+display: flex;
+
+
+}
+
+
+.food-gallery button{
+  width: 100%;
+  padding: 2em;
+  background-color: aqua;
+
+}
+
+
+.food{
+  background-color:#fff;
+margin-top: 2em;
+
+
+
+}
+.point{
+    color:green;
+    font-weight: 400;
+    text-align: center;
+    padding-right:4em;
+    font-weight: 2em;
+  }
+
+
+.food-gallery{
+width: 400px;
+border: 2px solid red;
+margin-top: 2em;
+}
+
+
+.food-gallery img{
+width: 100%;
+margin-bottom: 2em;
+
+}
+
+
+.content-2{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+
+
+
+}
+
+
+
+
+
+
 
 
 
@@ -9,27 +163,37 @@
 
 
 /* section2 */
-body{
-    background-color:darkturquoise;
-}
-h1{
-    color:deeppink;
-    text-align: center;
-}
-.point{
-    color:green;
-    font-weight: 400;
-    text-align: center;
-    padding-right:4em;
-    font-weight: 2em;
-
-}
-
-
-
-
-
-
-
 
 /* section3 */
+
+
+.connected{
+    margin-left: 2em;
+    margin-right: 2em; 
+
+} 
+.connected ul li{
+    list-style-type: none;
+} 
+
+.about{margin-left: 2em;}
+
+
+.news{padding-left: 4em;
+    
+    margin-bottom: 3em;
+    
+
+}
+
+.hotel-camp ul li{padding-bottom: 2em;
+    list-style-type: none;
+
+}
+
+
+.quick ul li{
+padding-bottom: 3em;
+}
+
+
