@@ -26,6 +26,11 @@ justify-content: space-between;
 
 align-items: center;
 
+
+.footer-1{
+    display: flex;
+justify-content: center;background-color: maroon;
+
 }
 
 
@@ -37,8 +42,13 @@ list-style-type: none;
 }
 
 
+.align h3{
+    padding-right: 2em;
+  }
+
 nav{
 background-color: aqua;
+
 }
 
 
@@ -149,10 +159,34 @@ justify-content: space-around;
 
 /* section3 */
 
+
 .connected{
     margin-left: 2em;
-    margin-right: 2em;
+    margin-right: 2em; 
+
+} 
+.connected ul li{
+    list-style-type: none;
+} 
+
+.about{margin-left: 2em;}
+
+
+.news{padding-left: 4em;
+    
+    margin-bottom: 3em;
     
 
+}
+
+.hotel-camp ul li{padding-bottom: 2em;
+    list-style-type: none;
 
 }
+
+
+.quick ul li{
+padding-bottom: 3em;
+}
+
+
