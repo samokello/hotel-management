@@ -70,6 +70,7 @@ justify-content: space-between;
 
 .apartments{
     background-color: aqua;
+    margin-bottom: 2em;
 
 }
 
@@ -80,7 +81,19 @@ display: flex;
 }
 
 
+.food-gallery button{
+  width: 100%;
+  padding: 2em;
+  background-color: aqua;
+
+}
+
+
 .food{
+  background-color:#fff;
+margin-top: 2em;
+
+
 
 }
 
@@ -88,11 +101,23 @@ display: flex;
 .food-gallery{
 width: 400px;
 border: 2px solid red;
+margin-top: 2em;
 }
 
 
 .food-gallery img{
 width: 100%;
+margin-bottom: 2em;
+
+}
+
+
+.content-2{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+
+
 
 }
 
