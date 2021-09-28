@@ -1,19 +1,30 @@
+
 /* section1 */
-
-
-/* section2 */
-
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 /* section3*/
-.h2{color: maroon;
+.h2{color: maroon;}
+
+
+.container{
+width: 80%;
+margin: 0 auto;
+
 
 }
 
 
 
-.container{width: 80%;}
 
+.navigation {
+  display: flex;
+justify-content: space-between;
+
+align-items: center;
 
 
 .footer-1{
@@ -22,6 +33,7 @@ justify-content: center;background-color: maroon;
 
 }
 
+
 .align{
     display: flex;
 list-style-type: none;
@@ -29,10 +41,123 @@ list-style-type: none;
 
 }
 
+
 .align h3{
     padding-right: 2em;
+  }
+
+nav{
+background-color: aqua;
+
 }
 
+
+
+
+.nav-content ul{
+display: flex;
+justify-content: space-around;
+
+}
+
+.nav-content ul a{
+padding: 2em;
+list-style-type: none;
+text-decoration: none;
+align-items: center;
+
+}
+
+.images{
+
+    width:300px;
+    border: 2px solid red;
+    margin: 2em;
+}
+
+.images img{
+    width: 100%;
+}
+
+.images-content{
+display: flex;
+justify-content: space-between;
+
+}
+
+
+
+
+.apartments{
+    background-color: aqua;
+    margin-bottom: 2em;
+
+}
+
+.image-content{
+display: flex;
+
+
+}
+
+
+.food-gallery button{
+  width: 100%;
+  padding: 2em;
+  background-color: aqua;
+
+}
+
+
+.food{
+  background-color:#fff;
+margin-top: 2em;
+
+
+
+}
+
+
+.food-gallery{
+width: 400px;
+border: 2px solid red;
+margin-top: 2em;
+}
+
+
+.food-gallery img{
+width: 100%;
+margin-bottom: 2em;
+
+}
+
+
+.content-2{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section2 */
+
+/* section3 */
 
 
 .connected{
@@ -59,6 +184,9 @@ list-style-type: none;
 
 }
 
+
 .quick ul li{
 padding-bottom: 3em;
 }
+
+
