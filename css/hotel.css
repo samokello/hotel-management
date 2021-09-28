@@ -26,10 +26,11 @@ justify-content: space-between;
 
 align-items: center;
 
-
+}
 .footer-1{
     display: flex;
-justify-content: center;background-color: maroon;
+justify-content: center;
+background-color: maroon;
 
 }
 
