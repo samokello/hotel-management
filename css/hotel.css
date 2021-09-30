@@ -1,6 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,700;1,400;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Noto+Serif:ital,wght@0,700;1,400;1,700&display=swap');
 /* section1 */
 * {
   margin: 0;
@@ -9,7 +8,8 @@
 }
 
 body{
-  font-family: 'Noto Serif', serif;
+  font-family: 'Kaushan Script', cursive;
+
 
 }
 
@@ -22,6 +22,24 @@ width: 80%;
 margin: 0 auto;
 
 
+}
+
+h1 {
+  font-family:"Noto Serif, serif";
+}
+
+h2{
+  font-family:"Noto Serif, serif"; 
+}
+
+h3{
+  font-family:"Noto Serif, serif";
+
+}
+
+
+h4{
+  font-family:"Noto Serif, serif";
 }
 
 
@@ -134,7 +152,9 @@ margin-top: 7em;
 /* width: 80%;
 margin:0 auto; */
 
-
+.save-content{
+  background-color: white;
+}
 
 .img1{
 margin: 50px;
@@ -155,6 +175,9 @@ width: 50%;
   padding:1em;
   margin-bottom: 3em;
 border-radius: 5px;
+cursor:pointer;
+border:none;
+box-shadow: 1px 1px 1px blackg;
 }
 
 .button1{
@@ -184,21 +207,25 @@ font-size: 2em;
 
 .rooms{
 width: 100%;
-background: linear-gradient(rgba(255,255,255,.5),rgba(255,255,255,.5)), url("../Images/loby5.jpeg") no-repeat center center/cover;
+background: linear-gradient(rgba(12, 12, 12, 0.3),rgba(12, 12, 12, 0.2)), url("../Images/loby5.jpeg") no-repeat center center/cover;
 
 height: 105vh;
 color:black;
 padding-top: 4em;
 font-size:1.5rem;
 padding: 4em;
+}
 
-
+.room p {
+  color:white;
 }
 
 .rooms h3{
 color:cyan;
+}
 
-
+.amenity ul {
+  color:white;
 }
 
 .room{
