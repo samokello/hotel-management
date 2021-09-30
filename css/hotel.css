@@ -41,11 +41,11 @@ body {
 }
 
 .payment {
-  display: flex;
+  /* display: flex; */
   /* align-items: center; */
   width: 80%;
   padding-left: 20em;
-  color: purple;
+  color:maroon;
   font-weight: bold;
   gap: 4em;
   margin: 0 auto;
@@ -407,8 +407,6 @@ h3 {
     list-style-type:none ;
 padding-bottom: 2em;
 
-
-
 }
 
 .about {
@@ -433,12 +431,12 @@ padding-bottom: 2em;
 
 .news {
   padding-left: 4em;
+  margin: 2em 0;
 
   margin-bottom: 3em;
   border: 2px lightgrey;
   background-color: aquamarine;
   border-radius: 2px;
-  margin: 3em;
   padding: 4em;
 }
 
@@ -469,6 +467,7 @@ padding-bottom: 2em;
   padding-bottom: 3em;
   list-style-type: none;
   padding-left: 2em;
+}
 .quick-link ul li{
 padding-bottom: 3em;
 list-style-type: none;
@@ -502,6 +501,12 @@ padding-left: 2em;
   border-style: dotted;
   border-radius: 5%;
 }
+
+.news-button{
+  color: black;
+  padding-left:1em;
+}
+
 .btn3:hover {
   transform: scale(1.1);
   transition: 0.5 ease-in;
