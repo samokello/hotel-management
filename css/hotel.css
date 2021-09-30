@@ -18,6 +18,8 @@ body{
 .h2{
     color: maroon;
     text-align: center;
+    font-size: 3em;
+    margin:1em;
 }
 
 .container p{ 
@@ -97,10 +99,17 @@ footer{
 .footer-1{
     display: flex;
 justify-content: center;
-justify-content: center;
 
 
 
+
+}
+
+footer h2{
+  color: #fff;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  padding-left: 3em;
 }
 
 
@@ -463,7 +472,8 @@ h3{
 
 } 
 .connected ul li{
-    list-style-type: none;
+    list-style-type:none;
+    padding-bottom: 2em;
 } 
 
 .about{margin-left: 2em;}
@@ -532,6 +542,11 @@ padding-left: 2em;
 .quick-link ul li{
 padding-bottom: 3em;
 list-style-type: none;
+color: #fff;
+}
+
+.quick-link h2{
+padding-left:2.5em;
 padding-left: 2em;
 }
 
