@@ -10,7 +10,7 @@
 
 body{
   font-family:"Noto Serif, serif";
-
+  overflow-x:hidden;
 
 }
 
@@ -83,21 +83,25 @@ h2{
 }
 
 
-.container{width:100%;}
+/* .container{width:100%;} */
 
 .navigation {
   display: flex;
+  width:80%;
 justify-content: space-between;
 
 align-items: center;
 }
+footer{
+  background-color:#194C3F;
+}
 
 .footer-1{
     display: flex;
-justify-content: center;background-color: beige;
-
 justify-content: center;
-background-color: maroon;
+justify-content: center;
+
+
 
 }
 
@@ -394,6 +398,7 @@ transition: .5s ease-in;
 body{
     background-color:bisque;
     margin: 0 auto;
+    /* overflow-x :hidden; */
 }
 .management{
     display: flex;
