@@ -508,7 +508,7 @@ padding:4em;
 
 
 .hotel-camp h2{
-    padding-left: 3em;
+    padding-left: 1em;
 }
 
 
@@ -532,13 +532,14 @@ padding-left: 2em;
 .quick-link ul li{
 padding-bottom: 3em;
 list-style-type: none;
+padding-left: 2em;
 }
 
 .quick-link h2{
 padding-left: 2.5em;
+margin-right:4em ;
 
 }
-
 
 
 
