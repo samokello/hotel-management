@@ -5,11 +5,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red;
+  
 }
 
 body{
-  font-family: 'Kaushan Script', cursive;
+  font-family:"Noto Serif, serif";
 
 
 }
@@ -17,7 +17,14 @@ body{
 /* section3*/
 .h2{
     color: maroon;
+    text-align: center;
 }
+
+.container p{ 
+  text-align: center;
+}
+
+
 
 
 .container{
@@ -28,21 +35,23 @@ margin: 0 auto;
 }
 
 h1 {
-  font-family:"Noto Serif, serif";
+  
+  font-family: 'Kaushan Script', cursive;
+
 }
 
 h2{
-  font-family:"Noto Serif, serif"; 
+  font-family: 'Kaushan Script', cursive;
+
 }
 
 h3{
-  font-family:"Noto Serif, serif";
-
+  font-family: 'Kaushan Script', cursive;
 }
 
 
 h4{
-  font-family:"Noto Serif, serif";
+  font-family: 'Kaushan Script', cursive;
 }
 
 
@@ -72,8 +81,13 @@ list-style-type: none;
 }
 
 
+.menu{
+  text-align: center;
+}
+
+
 .align h3{
-    padding-right: 2em;
+    padding-right: 1em;
   }
 
 nav{
@@ -213,7 +227,7 @@ font-size: 2em;
 width: 100%;
 background: linear-gradient(rgba(12, 12, 12, 0.3),rgba(12, 12, 12, 0.2)), url("../Images/loby5.jpeg") no-repeat center center/cover;
 
-height: 105vh;
+height: 110vh;
 color:black;
 padding-top: 4em;
 font-size:1.5rem;
@@ -362,6 +376,7 @@ justify-content: space-between;
     width: 50%;
 }
 
+
 .management img {
     width: 100%;
     border: 3px solid lightgrey;
@@ -390,6 +405,7 @@ h3{
     margin: 0 2em;
     font-size: 1.5em;
     width: 50%;
+    text-align: justify;
 }
 
 .management h3{
