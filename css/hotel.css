@@ -43,12 +43,15 @@ margin: 0 auto;
 
 .payment{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     width:80%;
     background-color: aqua;
     padding-left: 20em;
     color: purple;
 font-weight:bold;
+gap: 4em;
+margin: 0 auto;
+
 }
 
 .payment ul li{
@@ -390,6 +393,7 @@ transition: .5s ease-in;
 /* section2 */
 body{
     background-color:bisque;
+    margin: 0 auto;
 }
 .management{
     display: flex;
