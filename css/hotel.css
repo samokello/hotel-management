@@ -518,7 +518,7 @@ padding:4em;
 
 
 .hotel-camp h2{
-    padding-left: 3em;
+    padding-left: 1em;
 }
 
 
@@ -547,9 +547,14 @@ color: #fff;
 
 .quick-link h2{
 padding-left:2.5em;
-
+padding-left: 2em;
 }
 
+.quick-link h2{
+padding-left: 2.5em;
+margin-right:4em ;
+
+}
 
 
 
