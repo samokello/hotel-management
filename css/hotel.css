@@ -115,6 +115,12 @@ padding-top: 4em;
 
 }
 
+
+.down-content{
+margin-top: 7em;
+
+}
+
 .down-content h1{
   padding: 1em;
 
@@ -147,17 +153,31 @@ width: 50%;
 
   width:150px;
   padding:1em;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
+border-radius: 5px;
 }
 
 .button1{
-margin-top: 2em;
+margin-top: 3em;
+
+}
+
+
+.booking{
+margin: 3em 0;
+
+}
+
+.sav2{
+font-size: 2em;
+margin-bottom: 2em;
 
 }
 
 .deals{
 text-align: center;
-margin: 2em;
+margin: 4em 0;
+font-size: 2em;
 
 }
 
