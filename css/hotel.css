@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: 1px solid red;
 }
 
 body{
@@ -54,7 +55,7 @@ justify-content: space-between;
 align-items: center;
 }
 
-}
+
 .footer-1{
     display: flex;
 justify-content: center;
@@ -313,7 +314,7 @@ margin-bottom: 2em;
 
 }
 
-Restaurant
+
 
 
 .content-2{
