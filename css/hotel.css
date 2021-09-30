@@ -31,7 +31,28 @@ body{
 width: 80%;
 margin: 0 auto;
 
+}
+.h2{color: maroon;
+    font-weight: bold;
 
+    margin:4em;
+    font-weight: bold;
+
+
+}
+
+.payment{
+    display: flex;
+    align-items: center;
+    width:80%;
+    background-color: aqua;
+    padding-left: 20em;
+    color: purple;
+font-weight:bold;
+}
+
+.payment ul li{
+padding:1em;
 }
 
 h1 {
@@ -51,11 +72,15 @@ h3{
 
 
 h4{
+  font-family:"Noto Serif, serif";
+}
+
+h2{
   font-family: 'Kaushan Script', cursive;
 }
 
 
-
+.container{width:100%;}
 
 .navigation {
   display: flex;
@@ -66,6 +91,8 @@ align-items: center;
 
 .footer-1{
     display: flex;
+justify-content: center;background-color: beige;
+
 justify-content: center;
 background-color: maroon;
 
@@ -434,16 +461,108 @@ h3{
 .about{margin-left: 2em;}
 
 
+.about ul li{
+    text-transform: none;
+    list-style-type:none ;
+padding-bottom: 2em;
+
+
+
+}
+
+.about h2{
+    padding-left: 1.5em;
+
+}
+
+
+.about ul li a{
+  text-decoration: none;
+  color: black;  
+}
+
 .news{padding-left: 4em;
     
     margin-bottom: 3em;
-    
+    border: 2px lightgrey;
+    background-color: aquamarine;
+    border-radius: 2px;
+    margin: 3em;
+padding:4em;
 
 }
 
 .hotel-camp ul li{padding-bottom: 2em;
     list-style-type: none;
+    padding-right: 4em;
 
+}
+
+
+.hotel-camp h2{
+    padding-left: 3em;
+}
+
+
+.hotel-camp{
+border-right:0.1em solid black ;
+padding-right: 2em;
+
+
+}
+
+
+
+
+.hotel-camp ul li a, 
+.quick-link ul li a{
+color:black;
+text-decoration: none;
+padding-left: 2em;
+}
+
+.quick-link ul li{
+padding-bottom: 3em;
+list-style-type: none;
+}
+
+.quick-link h2{
+padding-left: 2.5em;
+
+}
+
+
+
+
+
+
+
+.button3{
+    padding: 1.5em;
+    background-color: thistle;
+    border-radius: 5%;
+    border-style:dashed;
+
+}
+.button3 :hover{
+    transform: scale(1.005);
+    transition: .2 ease-in;
+
+}
+
+
+
+
+.btn3{
+padding: 1.5em;background-color: violet;
+border-style: dotted;
+border-radius: 5%;
+
+}
+.btn3:hover{
+    transform: scale(1.1);
+    transition: .5 ease-in;
+ 
 }
 
 
