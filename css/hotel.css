@@ -14,7 +14,9 @@ body{
 }
 
 /* section3*/
-.h2{color: maroon;}
+.h2{
+    color: maroon;
+}
 
 
 .container{
@@ -50,6 +52,7 @@ h4{
 justify-content: space-between;
 
 align-items: center;
+}
 
 }
 .footer-1{
@@ -290,16 +293,7 @@ display: flex;
 .food{
 margin-top: 2em;
 
-
-
 }
-.point{
-    color:green;
-    font-weight: 400;
-    text-align: center;
-    padding-right:4em;
-    font-weight: 2em;
-  }
 
 
 .food-gallery{
@@ -311,11 +305,15 @@ text-align: center;
 }
 
 
+
+
 .food-gallery img{
 width: 100%;
 margin-bottom: 2em;
 
 }
+
+Restaurant
 
 
 .content-2{
@@ -349,6 +347,61 @@ transition: .5s ease-in;
 
 
 /* section2 */
+body{
+    background-color:bisque;
+}
+.management{
+    display: flex;
+justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+}
+
+.management div {
+    width: 50%;
+}
+
+.management img {
+    width: 100%;
+    border: 3px solid lightgrey;
+    border-radius: 5px;
+    margin:1em;
+}
+.page{
+    font-weight: 300;
+    font-size: 1.5em;
+}
+.h2{
+    color:maroon;
+    font-weight: 400;
+    font-size: 3em;
+}
+
+
+h3{
+    color:maroon;
+    font-size: 2em;
+    padding-bottom:0.5em;
+}
+
+.management p{
+
+    margin: 0 2em;
+    font-size: 1.5em;
+    width: 50%;
+}
+
+.management h3{
+
+    margin: 0 1em;
+}
+
+
+
+
+
+
+
 
 /* section3 */
 
