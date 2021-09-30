@@ -1,9 +1,16 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Noto+Serif:ital,wght@0,700;1,400;1,700&display=swap');
 /* section1 */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body{
+  font-family: 'Kaushan Script', cursive;
+
+
 }
 
 /* section3*/
@@ -17,6 +24,24 @@ width: 80%;
 margin: 0 auto;
 
 
+}
+
+h1 {
+  font-family:"Noto Serif, serif";
+}
+
+h2{
+  font-family:"Noto Serif, serif"; 
+}
+
+h3{
+  font-family:"Noto Serif, serif";
+
+}
+
+
+h4{
+  font-family:"Noto Serif, serif";
 }
 
 
@@ -51,7 +76,7 @@ list-style-type: none;
   }
 
 nav{
-background-color: aqua;
+background-color:bisque;
 
 }
 
@@ -69,18 +94,30 @@ padding: 2em;
 list-style-type: none;
 text-decoration: none;
 align-items: center;
+color:black;
 
 }
 
 .images{
 
     width:300px;
-    border: 2px solid red;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+
     margin: 2em;
 }
 
+.images div{
+transition: width 2s, height 4s;
+
+
+}
+
+
+
 .images img{
     width: 100%;
+
+
 }
 
 .images-content{
@@ -90,11 +127,150 @@ justify-content: space-between;
 }
 
 
+.downtown{
+background: linear-gradient(rgba(255,255,255,.5),rgba(255,255,255,.5)), url("../Images/back3.jpg") no-repeat center center/cover;
+height: 70vh;
+text-align: center;
+padding-top: 4em;
+
+
+}
+
+
+.down-content{
+margin-top: 7em;
+
+}
+
+.down-content h1{
+  padding: 1em;
+
+
+}
+.down-content h2{
+  padding: 0.5em;
+}
+
+/* .save-content{ */
+/* width: 80%;
+margin:0 auto; */
+
+.save-content{
+  background-color: white;
+}
+
+.img1{
+margin: 50px;
+width: 50%;
+
+}
+
+.saves{
+  display: flex;
+  align-items: center;
+width: 50%;
+}
+
+
+.btn{
+
+  width:150px;
+  padding:1em;
+  margin-bottom: 3em;
+border-radius: 5px;
+cursor:pointer;
+border:none;
+box-shadow: 1px 1px 1px blackg;
+}
+
+.button1{
+margin-top: 3em;
+
+}
+
+
+.booking{
+margin: 3em 0;
+
+}
+
+.sav2{
+font-size: 2em;
+margin-bottom: 2em;
+
+}
+
+.deals{
+text-align: center;
+margin: 4em 0;
+font-size: 2em;
+
+}
+
+
+.rooms{
+width: 100%;
+background: linear-gradient(rgba(12, 12, 12, 0.3),rgba(12, 12, 12, 0.2)), url("../Images/loby5.jpeg") no-repeat center center/cover;
+
+height: 105vh;
+color:black;
+padding-top: 4em;
+font-size:1.5rem;
+padding: 4em;
+}
+
+.room p {
+  color:white;
+}
+
+.rooms h3{
+color:cyan;
+}
+
+.amenity ul {
+  color:white;
+}
+
+.room{
+  padding-bottom: 2em;
+}
+
+.room2{
+display: flex;
+
+}
+
+.amenity{
+align-self: baseline;
+margin-left: 40%;
+}
+
+.amenity h3{
+  margin-left: 1.6em;
+}
+
+.amenity ul li{
+  list-style-type: none;
+  padding-left: 2em;
+}
+
+section{
+  background-color:bisque;
+}
+
 
 
 .apartments{
-    background-color: aqua;
     margin-bottom: 2em;
+    
+
+}
+
+.apartments h2{
+padding-top: 1.5em;
+text-align: center;
+
+
 
 }
 
@@ -102,28 +278,30 @@ justify-content: space-between;
 display: flex;
 
 
+
 }
 
 
-.food-gallery button{
+/* .food-gallery button{
   width: 100%;
   padding: 2em;
   background-color: aqua;
 
-}
+} */
 
 
 .food{
-  background-color:#fff;
 margin-top: 2em;
 
 }
 
 
 .food-gallery{
+  border: 1px solid lightgray;
 width: 400px;
-border: 2px solid red;
+box-shadow: 2px 2px 5px lightgray;
 margin-top: 2em;
+text-align: center;
 }
 
 
@@ -142,9 +320,16 @@ Restaurant
 display: flex;
 flex-wrap: wrap;
 justify-content: space-around;
+}
 
 
-
+.food-gallery:hover{
+transform: scale(1.04);
+transition: .5s ease-in;
+}
+.food-gallery button:hover{
+  transform: scale(0.9);
+transition: .5s ease-in;
 }
 
 
