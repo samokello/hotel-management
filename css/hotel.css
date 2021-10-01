@@ -186,7 +186,7 @@ nav {
 margin:0 auto; */
 
 .save-content {
-  background-color: white;
+  background-color: bisque;
 }
 
 .img1 {
@@ -275,7 +275,7 @@ margin:0 auto; */
 }
 
 section {
-  background-color: bisque;
+  background-color:white;
 }
 
 .apartments {
@@ -332,7 +332,7 @@ section {
 
 /* section2 */
 body {
-  background-color: bisque;
+  background-color:bisque;
   margin: 0 auto;
   /* overflow-x :hidden; */
 }
