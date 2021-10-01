@@ -107,7 +107,6 @@ footer h2{
   color: #fff;
   margin-top: 2em;
   margin-bottom: 1em;
-  padding-left: 3em;
 }
 
 .align {
@@ -420,9 +419,7 @@ padding-bottom: 2em;
   padding-bottom: 2em;
   color: aquamarine;
 }
- .about h2 {
-  padding-left: 1.5em;
-}
+ 
 
 .about ul li a {
   text-decoration: none;
